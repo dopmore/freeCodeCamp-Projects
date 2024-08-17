@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+/* Headline Style */
+.headline {
+  color: #444;
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container */
+#img-div {
+  margin: 20px 0;
+}
+
+#image {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+  font-style: italic;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  background-color: #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+  color: #333;
+}
+
+/* Link Style */
+#tribute-link {
+  color: #888;
+  text-decoration: underline;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+#tribute-link:hover {
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+  }
+
+  .headline {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}

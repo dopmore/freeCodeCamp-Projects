@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>Python Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Prerequisites">Prerequisites</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Conditional_Statements">Conditional Statements</a></li>
+      <li><a class="nav-link" href="#Functions">Functions</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <!-- Introduction Section -->
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a versatile and popular high-level programming language known for its simplicity and readability. It
+        is widely used in various fields, including web development, data analysis, artificial intelligence, automation,
+        and scientific computing.</p>
+      <p>Python's design philosophy emphasizes code readability with the use of significant indentation, making it an
+        ideal choice for beginners and experts alike. It supports multiple programming paradigms, including procedural,
+        object-oriented, and functional programming.</p>
+    </section>
+
+    <!-- Prerequisites Section -->
+    <section class="main-section" id="Prerequisites">
+      <header>Prerequisites</header>
+      <p>Before getting started with Python, you should have a basic understanding of the following:</p>
+      <ul>
+        <li>Basic understanding of programming concepts (e.g., loops, conditionals, functions).</li>
+        <li>Familiarity with a text editor or an Integrated Development Environment (IDE) for writing Python code.</li>
+        <li>Basic knowledge of how to use the command line or terminal.</li>
+      </ul>
+      <p>Python is beginner-friendly, so even if you're new to programming, you can start learning it with minimal
+        prerequisites.</p>
+    </section>
+
+    <!-- Variables Section -->
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>In Python, variables are used to store data values. A variable is created the moment you assign a value to it.
+        Unlike some other programming languages, Python does not require you to declare a variable's type; it is
+        dynamically typed.</p>
+      <code>
+          x = 10  # Integer<br>
+          y = 3.14  # Float<br>
+          name = "Python"  # String
+        </code>
+      <p>You can change the value of a variable at any time. Variables are just names that refer to objects in memory.
+        Python uses dynamic typing, which means that the type of a variable is determined at runtime.</p>
+      <ul>
+        <li>Variables can hold different types of data (e.g., integers, floats, strings).</li>
+        <li>Variable names should be descriptive and follow naming conventions (e.g., snake_case).</li>
+        <li>Python is case-sensitive, so `name` and `Name` are considered different variables.</li>
+      </ul>
+    </section>
+
+    <!-- Conditional Statements Section -->
+    <section class="main-section" id="Conditional_Statements">
+      <header>Conditional Statements</header>
+      <p>Conditional statements in Python allow you to execute certain code blocks based on a condition. The most common
+        conditional statements are `if`, `elif`, and `else`.</p>
+      <code>
+          x = 10<br>
+          if x > 5:<br>
+          &nbsp;&nbsp;print("x is greater than 5")<br>
+        </code>
+      <code>
+          elif x == 5:<br>
+          &nbsp;&nbsp;print("x is equal to 5")<br>
+        </code>
+      <code>
+          else:<br>
+          &nbsp;&nbsp;print("x is less than 5")
+        </code>
+      <ul>
+        <li>`if` statement: Used to test a condition. If the condition is true, the code block inside the `if` statement
+          is executed.</li>
+        <li>`elif` statement: Short for "else if," this is used to check another condition if the previous one was
+          false.</li>
+        <li>`else` statement: Executes a block of code if none of the previous conditions are true.</li>
+      </ul>
+    </section>
+
+    <!-- Functions Section -->
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions in Python are reusable blocks of code that perform a specific task. You can define your own functions
+        using the `def` keyword, followed by the function name and parentheses.</p>
+      <code>
+          def greet(name):<br>
+          &nbsp;&nbsp;return f"Hello, {name}!"<br><br>
+          print(greet("World"))  # Output: Hello, World!
+        </code>
+      <p>Functions help you organize your code into reusable pieces and make it more modular. They can accept arguments,
+        return values, and be called multiple times from different parts of your program.</p>
+      <ul>
+        <li>Functions are defined using the `def` keyword.</li>
+        <li>Functions can accept parameters (inputs) and return values (outputs).</li>
+        <li>Functions help make your code DRY (Don't Repeat Yourself).</li>
+      </ul>
+      <p>for more read the Documentation</p>
+    </section>
+  </main>
+</body>
+
+</html>

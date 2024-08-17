@@ -1,0 +1,112 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  /* Light grey background */
+  color: #333;
+  /* Dark grey text color */
+}
+
+/* Navigation bar styling */
+#navbar {
+  background-color: #333;
+  /* Dark grey background */
+  padding: 20px;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar header styling */
+#navbar header {
+  color: #fff;
+  /* White text for the header */
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Navbar list items */
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar li {
+  margin: 15px 0;
+}
+
+/* Navbar links */
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Navbar link hover effect */
+#navbar a:hover {
+  background-color: #555;
+  /* Lighter grey on hover */
+}
+
+/* Main content styling */
+#main-doc {
+  margin-left: 240px;
+  /* Space for the fixed navbar */
+  padding: 20px;
+  background-color: #fff;
+  /* White background for the content */
+  box-shadow: none;
+  /* Removed box shadow */
+  border: none;
+  /* Ensure no borders around the main content */
+}
+
+/* Section headers */
+.main-section header {
+  font-size: 24px;
+  color: #333;
+  border-bottom: 2px solid #333;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Code block styling */
+code {
+  background-color: #e0e0e0;
+  /* Light grey code block */
+  padding: 5px;
+  border-radius: 4px;
+  display: block;
+  margin: 10px 0;
+}
+
+/* List styling */
+ul {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}

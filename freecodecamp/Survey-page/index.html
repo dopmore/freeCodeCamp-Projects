@@ -1,0 +1,62 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description"><em>please fill out everything</em></p>
+  <form id="survey-form" action="https://survey-form.freecodecamp.rocks">
+    <section>
+      <fieldset id="personal-information">
+        <!-- <legend>Please enter your information</legend> -->
+        <label id="name-label">Name<input id="name" required type="text" placeholder="name"></label>
+        <label id="email-label">Email<input required placeholder="email" type="email" id="email"></label>
+        <label id="number-label">Age (optional)<input placeholder="age" type="number" id="number" min="14"
+            max="120"></label>
+      </fieldset>
+      <fieldset id="menu-dropdown">
+        <legend>Please select an option</legend>
+        <select id="dropdown">
+          <option value="">(select your prefered food)</option>
+          <option value="1">Pizza</option>
+          <option value="2">Fish</option>
+          <option value="3">Burger</option>
+        </select>
+      </fieldset>
+      <fieldset id="menu-checkbox">
+        <legend>Tick your gender</legend>
+        <label><input class="inline" name="gender" type="radio" value="1">male</label>
+        <br>
+        <label><input class="inline" name="gender" type="radio" value="2">female</label>
+        <br>
+        <label><input class="inline" name="gender" type="radio" value="3">other</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select all your coding skills</legend>
+        <label><input value="1" class="inline" type="checkbox">Python</label>
+        <br>
+        <label><input value="2" class="inline" type="checkbox">Java</label>
+        <br>
+        <label><input value="3" class="inline" type="checkbox">HTML</label>
+        <br>
+        <label><input value="4" class="inline" type="checkbox">CSS</label>
+        <br>
+        <label><input value="5" class="inline" type="checkbox">Javascript</label>
+      </fieldset>
+      <fieldset id="Here you can add extra information">
+        <legend>Here you can add extra information</legend>
+        <textarea rows="3" cols="30"></textarea>
+      </fieldset>
+    </section>
+    <input id="submit" type="submit" value="Submit">
+    <br>
+  </form>
+</body>
+
+</html>
